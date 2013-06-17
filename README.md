@@ -2,6 +2,10 @@
 
 Wraps the Sidr javascript lib for the Rails' Asset Pipeline.
 
+All the swag for this awesome lib goes out to [Alberto Varela][1].
+
+All I did was package for ease of use.
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -36,3 +40,6 @@ That's all.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+[1]:http://www.berriart.com/sidr/
