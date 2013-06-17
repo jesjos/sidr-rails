@@ -1,0 +1,3 @@
+module Sidr
+  VERSION = "0.0.1"
+end
