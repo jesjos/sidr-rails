@@ -1,6 +1,6 @@
-# Sidr::Rails
+# Sidr for Rails
 
-TODO: Write a gem description
+Wraps the Sidr javascript lib for the Rails' Asset Pipeline.
 
 ## Installation
 
@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the javascript to your javascript manifest:
+
+    //= require jquery.sidr
+
+Optionally add one of the included stylesheets to your CSS manifest:
+
+    *= require jquery.sidr.light
+    *= require jquery.sidr.dark
+
+That's all.
 
 ## Contributing
 
